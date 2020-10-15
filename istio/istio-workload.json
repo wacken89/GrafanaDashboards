@@ -62,7 +62,7 @@
   "links": [],
   "panels": [
     {
-      "content": "<div class=\"dashboard-header text-center\">\n<span>WORKLOAD: $workload.$namespace</span>\n</div>",
+      "content": "WORKLOAD: $workload",
       "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
@@ -551,7 +551,7 @@
       "valueName": "avg"
     },
     {
-      "content": "<div class=\"dashboard-header text-center\">\n<span>INBOUND WORKLOADS</span>\n</div>",
+      "content": "INBOUND WORKLOADS",
       "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
@@ -1496,7 +1496,7 @@
       }
     },
     {
-      "content": "<div class=\"dashboard-header text-center\">\n<span>OUTBOUND SERVICES</span>\n</div>",
+      "content": "OUTBOUND SERVICES",
       "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {

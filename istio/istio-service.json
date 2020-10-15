@@ -62,7 +62,7 @@
   "links": [],
   "panels": [
     {
-      "content": "<div class=\"dashboard-header text-center\">\n<span>SERVICE: $service</span>\n</div>",
+      "content": "SERVICE: $service",
       "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
@@ -842,7 +842,7 @@
       "valueName": "avg"
     },
     {
-      "content": "<div class=\"dashboard-header text-center\">\n<span>CLIENT WORKLOADS</span>\n</div>",
+      "content": "CLIENT WORKLOADS",
       "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
@@ -1787,7 +1787,7 @@
       }
     },
     {
-      "content": "<div class=\"dashboard-header text-center\">\n<span>SERVICE WORKLOADS</span>\n</div>",
+      "content": "SERVICE WORKLOADS",
       "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {

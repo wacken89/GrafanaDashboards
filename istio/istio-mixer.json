@@ -58,7 +58,7 @@
   "links": [],
   "panels": [
     {
-      "content": "<center><h2>Deployed Versions</h2></center>",
+      "content": "Deployed Versions",
       "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
@@ -177,7 +177,7 @@
       }
     },
     {
-      "content": "<center><h2>Resource Usage</h2></center>",
+      "content": "Resource Usage",
       "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
@@ -674,7 +674,7 @@
       }
     },
     {
-      "content": "<center><h2>Mixer Overview</h2></center>",
+      "content": "Mixer Overview",
       "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
@@ -1108,7 +1108,7 @@
       }
     },
     {
-      "content": "<center><h2>Adapters and Config</h2></center>",
+      "content": "Adapters and Config",
       "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
@@ -1742,7 +1742,7 @@
       }
     },
     {
-      "content": "<center><h2>Individual Adapters</h2></center>",
+      "content": "Individual Adapters",
       "datasource": "${DS_PROMETHEUS}",
       "fieldConfig": {
         "defaults": {
